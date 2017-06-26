@@ -23,4 +23,11 @@ public class CalcUtilTest {
         int bSide = 4;
         double cSide = CalcUtil.calculateTriangleLastSideLength(aSide, bSide);
     }
+    
+    @Test(expected = ArithmeticException.class)
+    public void calcTriangleCSideNegativeOther(){
+        int aSide = 3;
+        int bSide = -4;
+        double cSide = CalcUtil.calculateTriangleLastSideLength(aSide, bSide);
+    }
 }
