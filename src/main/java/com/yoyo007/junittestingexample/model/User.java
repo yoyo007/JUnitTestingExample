@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.sql.Timestamp;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import lombok.EqualsAndHashCode;
@@ -21,6 +22,7 @@ import org.hibernate.annotations.CreationTimestamp;
 public class User implements Serializable {
     
     @Id
+    @GeneratedValue
     private Long id;
     
     @Column(name="FIRST_NAME")

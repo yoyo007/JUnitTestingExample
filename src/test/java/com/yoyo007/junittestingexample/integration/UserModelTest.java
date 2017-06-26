@@ -21,7 +21,7 @@ public class UserModelTest {
         user.setFirstName("test");
         user.setLastName("testing");
         user.setMiddileInitial("T");
-        user.setId(1L);
+        //user.setId(1L);
         userRepo.save(user);
         //make sure most basic spring data repos are working and valid using xml based config
     }
