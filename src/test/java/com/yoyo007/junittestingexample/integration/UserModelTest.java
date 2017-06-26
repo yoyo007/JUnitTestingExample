@@ -29,6 +29,7 @@ public class UserModelTest {
         user.setMiddileInitial("T");
         //user.setId(1L);
         userRepo.save(user);
+        assertNotNull(user.getId());
         //make sure most basic spring data repos are working and valid using xml based config
     }
     
