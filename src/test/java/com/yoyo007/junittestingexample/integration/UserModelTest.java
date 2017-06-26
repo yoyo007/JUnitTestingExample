@@ -35,6 +35,7 @@ public class UserModelTest {
     
     @Test
     public void autoWireComponet(){
+        //test to show an example of autowired component
         User user = userUtil.createAnonymousUser();
         
         assertNotNull(user);
