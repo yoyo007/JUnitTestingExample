@@ -31,5 +31,6 @@ http://www.springframework.org/schema/data/jpa http://www.springframework.org/sc
     </bean>
     
     <jpa:repositories entity-manager-factory-ref="entityManager" base-package="com.yoyo007.junittestingexample.repository" />
+    <context:component-scan base-package="com.yoyo007.junittestingexample" />
 
 </beans>
