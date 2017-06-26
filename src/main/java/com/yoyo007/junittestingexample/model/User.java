@@ -12,11 +12,6 @@ import lombok.Setter;
 import lombok.ToString;
 import org.hibernate.annotations.CreationTimestamp;
 
-/**
- *
- * @author derrek
- * 
- */
 @Getter
 @Setter
 @ToString
