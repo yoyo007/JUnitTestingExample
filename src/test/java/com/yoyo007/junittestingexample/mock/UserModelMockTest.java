@@ -3,8 +3,6 @@ package com.yoyo007.junittestingexample.mock;
 import com.yoyo007.junittestingexample.model.User;
 import com.yoyo007.junittestingexample.repository.UserRepo;
 import com.yoyo007.junittestingexample.util.UserUtil;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import static org.mockito.ArgumentMatchers.any;
