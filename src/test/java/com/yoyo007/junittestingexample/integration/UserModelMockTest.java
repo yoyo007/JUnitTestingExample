@@ -25,7 +25,7 @@ public class UserModelMockTest {
     
     @Test
     public void testMockService(){
-        //test to show an example of autowired component
+        //test to show an example of autowired component with mocks
         User user = userUtil.createAnonymousUser();
         
         verify(userRepo, times(1)).save(any(User.class));
