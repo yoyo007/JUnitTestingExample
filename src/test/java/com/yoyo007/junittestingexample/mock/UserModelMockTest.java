@@ -1,4 +1,4 @@
-package com.yoyo007.junittestingexample.integration;
+package com.yoyo007.junittestingexample.mock;
 
 import com.yoyo007.junittestingexample.model.User;
 import com.yoyo007.junittestingexample.repository.UserRepo;
