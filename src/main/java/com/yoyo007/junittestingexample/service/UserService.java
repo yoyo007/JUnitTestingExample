@@ -1,12 +1,12 @@
-package com.yoyo007.junittestingexample.util;
+package com.yoyo007.junittestingexample.service;
 
 import com.yoyo007.junittestingexample.model.User;
 import com.yoyo007.junittestingexample.repository.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
-public class UserUtil {
+@Service
+public class UserService {
     
     @Autowired
     private UserRepo userRepo;

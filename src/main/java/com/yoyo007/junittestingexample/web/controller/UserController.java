@@ -20,7 +20,7 @@ public class UserController {
 //        user.setMiddileInitial("middle");
 //        user.setLastName("last");
 //        user.setId(1L);
-        response = new ResponseEntity<Object>(user, HttpStatus.OK);
+        response = new ResponseEntity<>(user, HttpStatus.OK);
         return response;
     }
     

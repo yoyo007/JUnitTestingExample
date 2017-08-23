@@ -2,7 +2,7 @@ package com.yoyo007.junittestingexample.integration;
 
 import com.yoyo007.junittestingexample.model.User;
 import com.yoyo007.junittestingexample.repository.UserRepo;
-import com.yoyo007.junittestingexample.util.UserUtil;
+import com.yoyo007.junittestingexample.service.UserService;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
@@ -19,7 +19,7 @@ public class UserModelTest {
     private UserRepo userRepo;
     
     @Autowired
-    private UserUtil userUtil;
+    private UserService userUtil;
     
     @Test
     public void springLoadRepos(){

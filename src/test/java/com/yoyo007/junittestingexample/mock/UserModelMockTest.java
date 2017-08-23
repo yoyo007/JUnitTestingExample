@@ -2,7 +2,7 @@ package com.yoyo007.junittestingexample.mock;
 
 import com.yoyo007.junittestingexample.model.User;
 import com.yoyo007.junittestingexample.repository.UserRepo;
-import com.yoyo007.junittestingexample.util.UserUtil;
+import com.yoyo007.junittestingexample.service.UserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import static org.mockito.ArgumentMatchers.any;
@@ -19,7 +19,7 @@ public class UserModelMockTest {
     private UserRepo userRepo;
     
     @InjectMocks
-    private UserUtil userUtil;
+    private UserService userUtil;
     
     @Test
     public void testMockService(){
